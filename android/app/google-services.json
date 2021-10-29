@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "348235939481",
+    "project_id": "radix-freshers-news-app",
+    "storage_bucket": "radix-freshers-news-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348235939481:android:342466ffcb57a7f2e74208",
+        "android_client_info": {
+          "package_name": "com.example.radix_freshers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348235939481-gl47cavt7q4u7tdokp1fb8kqb8k6lhmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.radix_freshers",
+            "certificate_hash": "78f51fc889ccdd1ce1d7f54d2c016b50b48a4e69"
+          }
+        },
+        {
+          "client_id": "348235939481-401s5m66l08kkfob8i1hs90tfiiiennu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnLyCaN_8_WQKEnvliWQlTQMoezGjBCGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348235939481-401s5m66l08kkfob8i1hs90tfiiiennu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
