@@ -58,7 +58,7 @@ class NewsPage extends StatelessWidget {
                             border: Border.all(width: 2.0, color: Colors.white),
                             shape: BoxShape.circle,
                             image: DecorationImage(
-                                image: source.id == null
+                                image: source.id != null
                                     ? AssetImage(
                                         "assets/logos/${source.id}.png")
                                     : const AssetImage(
@@ -145,8 +145,9 @@ class NewsPage extends StatelessWidget {
                   title: articles[index].title ?? "",
                   desc: articles[index].description ?? "",
                   content: articles[index].content ?? "",
-                  posturl: articles[index].url ?? "",
-                  timeago: timeUntil(DateTime.parse(articles[index].publishedAt!)),
+                  postUrl: articles[index].url ?? "",
+                  channelName: source.name ?? "",
+                  timeAgo: timeUntil(DateTime.parse(articles[index].publishedAt!)),
                 );
               } else {
                 Timer(const Duration(milliseconds: 30), () {

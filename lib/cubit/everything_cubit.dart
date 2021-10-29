@@ -26,14 +26,6 @@ class EverythingCubit extends Cubit<EverythingState> {
         {
           print("problem");
         }
-    /*  if (responsesApi.status == "ok") {
-        return responsesApi.articles!;
-      //  emit(EverythingLoaded(responsesApi.articles!));
-      } else {
-        print("problem");
-        return [];
-         //emit(EverythingError(errors: ));
-      }*/
     });
   }
 

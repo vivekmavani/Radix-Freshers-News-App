@@ -109,7 +109,7 @@ class HomePage extends StatelessWidget {
                           ],
                           image: DecorationImage(
                               fit: BoxFit.cover,
-                              image:sources[index].id == null ? AssetImage(
+                              image:sources[index].id != null ? AssetImage(
                                   "assets/logos/${sources[index].id}.png")
                                   : const AssetImage("assets/img/placeholder.jpg"),
                           ),
